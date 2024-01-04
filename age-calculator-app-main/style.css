@@ -20,12 +20,13 @@ body{
     height: 450px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 3px 3px 5px gray;
-    border-bottom-right-radius: 90px;
+    border-bottom-right-radius: 120px;
 }
 
 .container{
-    width: 580px;
+    width: 540px;
     height: 430px;
+    
 
 }
 
@@ -34,15 +35,64 @@ input{
     height: 45px;
     border: 1px solid hsl(0, 1%, 44%);
     border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 10px;
+}
+
+input:focus{
+    border: 0px;
+    outline: 1px solid;
+    font-size: 20px;
+    color: hsl(0, 0%, 8%);
 }
 
 .input-flex{
     width: 400px;
-    height: 45px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .div > p{
-   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(0, 1%, 44%);
 }
+
+hr{
+    
+    width: 520px;
+}
+
+img[alt="arrow"]{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: hsl(259, 100%, 65%);
+    position: absolute;
+    right: 10px;
+}
+
+.image-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+}
+
+.text-div > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 60px;   
+}
+
+.text-div p > span{
+    color: hsl(259, 100%, 65%);
+}
+
