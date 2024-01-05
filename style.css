@@ -55,7 +55,7 @@ input:focus{
     margin-top: 20px;
 }
 
-.div > p{
+.calender{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -84,7 +84,14 @@ img[alt="arrow"]{
     position: relative;
     height: 60px;
 }
+.error-text{
+    visibility: hidden;
+    font-size: 10px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
 
+
+}
 .text-div > p{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -94,5 +101,11 @@ img[alt="arrow"]{
 
 .text-div p > span{
     color: hsl(259, 100%, 65%);
+}
+
+.on{
+    visibility: visible;
+    
+
 }
 
